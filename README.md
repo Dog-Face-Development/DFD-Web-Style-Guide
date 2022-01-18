@@ -8,5 +8,6 @@ Links:
  - [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
  - [GitHub Primer](https://primer.github.io/)
  - [BC Government DevHub](https://developer.gov.bc.ca/Design-System/About)
+ - [Government of Canada Design System](https://www.canada.ca/en/government/about/design-system.html)
  - [USPTO Design](http://uspto.github.io/designpatterns/1.x/docs/index.html)
  - [United States Web Design System](https://designsystem.digital.gov/)
