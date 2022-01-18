@@ -6,7 +6,7 @@ Links:
  - [Style Guide Best Practices](http://bradfrost.com/blog/post/style-guide-best-practices/)
  - [How to Create a Style Guide](https://www.process.st/create-a-style-guide/)
  - [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
- - [GitHub Primer](https://primer.github.io/)
+ - [GitHub Primer](https://primer.style/)
  - [BC Government DevHub](https://developer.gov.bc.ca/Design-System/About)
  - [Government of Canada Design System](https://www.canada.ca/en/government/about/design-system.html)
  - [USPTO Design](http://uspto.github.io/designpatterns/1.x/docs/index.html)
