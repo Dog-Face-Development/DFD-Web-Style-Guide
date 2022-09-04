@@ -1,6 +1,6 @@
-# %PROGRAM NAME% Documentation
+# Dog Face Development Co. Style Guide Documentation
 
-This folder includes all of the docs for %PROGRAM NAME%.
+This folder includes all of the docs for the Dog Face Development Co. Style Guide.
 
 ```text
 ├── docs
