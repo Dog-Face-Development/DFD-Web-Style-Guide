@@ -1,6 +1,7 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/Dog-Face-Development/DFD-Web-Style-Guide/blob/master/docs/images/logo.png" height="250px" width="400px" alt="Web Style Guide">
+  <img src="https://github.com/Dog-Face-Development/DFD-Web-Style-Guide/blob/master/docs/images/logo.png" height="250px" width="300px" alt="Web Style Guide">
+  <br>
   Dog Face Development Co. Web Style Guide
 </h1>
 
