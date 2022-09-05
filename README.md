@@ -34,9 +34,6 @@
   <a href="#credits">Credits & Contributors</a>
 </p>
 
-<!-- Screenshot(s) -->
-![screenshot](https://github.com/Dog-Face-Development/DFD-Web-Style-Guide/blob/master/docs/images/welcome.png)
-
 ## Key Features
 
 * Clear style guide.
