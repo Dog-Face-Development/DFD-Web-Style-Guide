@@ -3,7 +3,8 @@
 FROM node:lts AS build
 WORKDIR /app
 COPY . .
-RUN npm i
+RUN npm i --force
+RUN npm audit fix --force
 RUN npm run build
 
 FROM httpd:2.4 AS runtime
