@@ -202,15 +202,15 @@
   dependencies:
     "@babel/plugin-transform-react-jsx" "^7.17.12"
 
-"@astrojs/tailwind@^0.1.0":
-  version "0.1.2"
-  resolved "https://registry.npmjs.org/@astrojs/tailwind/-/tailwind-0.1.2.tgz"
-  integrity sha512-u7phch7CqukCsi6DWB4EuiZ8GyLcu10waafcQw8CZ88pkzbXl+5ubiGqXqd75I1R05f+eXlYX0uwrRetGlELCw==
+"@astrojs/tailwind@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/tailwind/-/tailwind-1.0.1.tgz#06d19b158451e01365e5998b0daca38a50ca1b1a"
+  integrity sha512-ZVytcmam/krEkg3xfW+2ItMz/XKWCg86Zj9lZsUOybEi3mcQZt++CRGyX1zqUAHrjXY9p/hhMeSWtwVX3GnIyA==
   dependencies:
-    "@proload/core" "^0.2.2"
-    autoprefixer "^10.4.4"
-    postcss "^8.4.12"
-    tailwindcss "^3.0.23"
+    "@proload/core" "^0.3.2"
+    autoprefixer "^10.4.7"
+    postcss "^8.4.14"
+    tailwindcss "^3.0.24"
 
 "@astrojs/telemetry@3.1.0":
   version "3.1.0"
@@ -794,10 +794,10 @@
   dependencies:
     playwright "1.41.1"
 
-"@proload/core@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.npmjs.org/@proload/core/-/core-0.2.2.tgz"
-  integrity sha512-HYQEblYXIpW77kvGyW4penEl9D9e9MouPhTqVaDz9+QVFliYjsq18inTfnfTa81s3oraPVtTk60tqCWOf2fKGQ==
+"@proload/core@^0.3.2":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@proload/core/-/core-0.3.3.tgz#0a30c5ab69e21254b339813c674a6197a42337c3"
+  integrity sha512-7dAFWsIK84C90AMl24+N/ProHKm4iw0akcnoKjRvbfHifJZBLhaDsDus1QJmhG12lXj4e/uB/8mB/0aduCW+NQ==
   dependencies:
     deepmerge "^4.2.2"
     escalade "^3.1.1"
@@ -1256,13 +1256,13 @@ astro@^4.10.3:
   optionalDependencies:
     sharp "^0.33.3"
 
-autoprefixer@^10.4.4:
-  version "10.4.17"
-  resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.17.tgz"
-  integrity sha512-/cpVNRLSfhOtcGflT13P2794gVSgmPgTR+erw5ifnMLZb0UnSlkK4tquLmkd3BhA+nLo5tX8Cu0upUsGKvKbmg==
+autoprefixer@^10.4.7:
+  version "10.4.19"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.19.tgz#ad25a856e82ee9d7898c59583c1afeb3fa65f89f"
+  integrity sha512-BaENR2+zBZ8xXhM4pUaKUxlVdxZ0EZhjvbopwnXmxRUfqDmwSpC2lAi/QXvx7NRdPCo1WKEcEF6mV64si1z4Ew==
   dependencies:
-    browserslist "^4.22.2"
-    caniuse-lite "^1.0.30001578"
+    browserslist "^4.23.0"
+    caniuse-lite "^1.0.30001599"
     fraction.js "^4.3.7"
     normalize-range "^0.1.2"
     picocolors "^1.0.0"
@@ -1333,6 +1333,16 @@ browserslist@^4.22.2:
     node-releases "^2.0.14"
     update-browserslist-db "^1.0.13"
 
+browserslist@^4.23.0:
+  version "4.23.1"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.23.1.tgz#ce4af0534b3d37db5c1a4ca98b9080f985041e96"
+  integrity sha512-TUfofFo/KsK/bWZ9TWQ5O26tsWW4Uhmt8IYklbnUa70udB6P2wA7w7o4PY4muaEPBQaAX+CEnmmIA41NVHtPVw==
+  dependencies:
+    caniuse-lite "^1.0.30001629"
+    electron-to-chromium "^1.4.796"
+    node-releases "^2.0.14"
+    update-browserslist-db "^1.0.16"
+
 camelcase-css@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz"
@@ -1343,10 +1353,15 @@ camelcase@^7.0.1:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-7.0.1.tgz#f02e50af9fd7782bc8b88a3558c32fd3a388f048"
   integrity sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==
 
-caniuse-lite@^1.0.30001565, caniuse-lite@^1.0.30001578:
+caniuse-lite@^1.0.30001565:
   version "1.0.30001579"
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001579.tgz"
   integrity sha512-u5AUVkixruKHJjw/pj9wISlcMpgFWzSrczLZbrqBSxukQixmg0SJ5sZTpvaFvxU0HoQKd4yoyAogyrAz9pzJnA==
+
+caniuse-lite@^1.0.30001599, caniuse-lite@^1.0.30001629:
+  version "1.0.30001636"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001636.tgz#b15f52d2bdb95fad32c2f53c0b68032b85188a78"
+  integrity sha512-bMg2vmr8XBsbL6Lr0UHXy/21m84FTxDLWn2FSqMd5PrlbMxwJlQnC2YWYxVgp66PZE+BBNF2jYQUBKCo1FDeZg==
 
 ccount@^2.0.0:
   version "2.0.1"
@@ -1586,6 +1601,11 @@ electron-to-chromium@^1.4.601:
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.640.tgz"
   integrity sha512-z/6oZ/Muqk4BaE7P69bXhUhpJbUM9ZJeka43ZwxsDshKtePns4mhBlh8bU5+yrnOnz3fhG82XLzGUXazOmsWnA==
 
+electron-to-chromium@^1.4.796:
+  version "1.4.805"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.805.tgz#1d526e384c20944a3c68f618f9774edc384c4733"
+  integrity sha512-8W4UJwX/w9T0QSzINJckTKG6CYpAUTqsaWcWIsdud3I1FYJcMgW9QqT1/4CBff/pP/TihWh13OmiyY8neto6vw==
+
 emoji-regex@^10.3.0:
   version "10.3.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-10.3.0.tgz#76998b9268409eb3dae3de989254d456e70cfe23"
@@ -1644,6 +1664,11 @@ escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
+
+escalade@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.2.tgz#54076e9ab29ea5bf3d8f1ed62acffbb88272df27"
+  integrity sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"
@@ -2120,10 +2145,10 @@ jackspeak@^2.3.5:
   optionalDependencies:
     "@pkgjs/parseargs" "^0.11.0"
 
-jiti@^1.19.1:
-  version "1.21.0"
-  resolved "https://registry.npmjs.org/jiti/-/jiti-1.21.0.tgz"
-  integrity sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==
+jiti@^1.21.0:
+  version "1.21.6"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.6.tgz#6c7f7398dd4b3142767f9a168af2f317a428d268"
+  integrity sha512-2yTgeWTWzMWkHu6Jp9NKgePDaYHbntiwvYuuJLbbN9vl7DC9DvXKOB2BC3ZZ92D3cvV/aflH0osDfwpHepQ53w==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -2911,6 +2936,11 @@ picocolors@^1.0.0:
   resolved "https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
+picocolors@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.1.tgz#a8ad579b571952f0e5d25892de5445bcfe25aaa1"
+  integrity sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==
+
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.1:
   version "2.3.1"
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
@@ -2996,16 +3026,7 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.2.0:
   resolved "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@^8.4.12, postcss@^8.4.23:
-  version "8.4.33"
-  resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.33.tgz"
-  integrity sha512-Kkpbhhdjw2qQs2O2DGX+8m5OVqEcbB9HRBvuYM9pgrjEFUg30A9LmXNlTAUj4S9kgtGyrMbTzVjH7E+s5Re2yg==
-  dependencies:
-    nanoid "^3.3.7"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
-
-postcss@^8.4.38:
+postcss@^8.4.14, postcss@^8.4.23, postcss@^8.4.38:
   version "8.4.38"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.38.tgz#b387d533baf2054288e337066d81c6bee9db9e0e"
   integrity sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==
@@ -3378,7 +3399,7 @@ sisteransi@^1.0.5:
   resolved "https://registry.npmjs.org/sisteransi/-/sisteransi-1.0.5.tgz"
   integrity sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==
 
-"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
+"source-map-js@>=0.6.2 <2.0.0":
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
@@ -3508,10 +3529,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-tailwindcss@^3.0.23:
-  version "3.4.1"
-  resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.1.tgz"
-  integrity sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==
+tailwindcss@^3.0.24:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.4.4.tgz#351d932273e6abfa75ce7d226b5bf3a6cb257c05"
+  integrity sha512-ZoyXOdJjISB7/BcLTR6SEsLgKtDStYyYZVLsUtWChO4Ps20CBad7lfJKVDiejocV4ME1hLmyY0WJE3hSDcmQ2A==
   dependencies:
     "@alloc/quick-lru" "^5.2.0"
     arg "^5.0.2"
@@ -3521,7 +3542,7 @@ tailwindcss@^3.0.23:
     fast-glob "^3.3.0"
     glob-parent "^6.0.2"
     is-glob "^4.0.3"
-    jiti "^1.19.1"
+    jiti "^1.21.0"
     lilconfig "^2.1.0"
     micromatch "^4.0.5"
     normalize-path "^3.0.0"
@@ -3730,6 +3751,14 @@ update-browserslist-db@^1.0.13:
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
+
+update-browserslist-db@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.0.16.tgz#f6d489ed90fb2f07d67784eb3f53d7891f736356"
+  integrity sha512-KVbTxlBYlckhF5wgfyZXTWnMn7MMZjMu9XG8bPlliUOP9ThaF4QnhP8qrjrH7DRzHfSk0oQv1wToW+iA5GajEQ==
+  dependencies:
+    escalade "^3.1.2"
+    picocolors "^1.0.1"
 
 util-deprecate@^1.0.2:
   version "1.0.2"
