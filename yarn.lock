@@ -753,10 +753,15 @@
     "@babel/helper-validator-identifier" "^7.25.7"
     to-fast-properties "^2.0.0"
 
-"@docsearch/css@3.6.1", "@docsearch/css@^3.6.1":
+"@docsearch/css@3.6.1":
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-3.6.1.tgz#f0a728ecb486c81f2d282650fc1820c914913408"
   integrity sha512-VtVb5DS+0hRIprU2CO6ZQjK2Zg4QU5HrDM1+ix6rT0umsYvFvatMAnf97NHZlVWDaaLlx7GRfR/7FikANiM2Fg==
+
+"@docsearch/css@^3.6.3":
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-3.6.3.tgz#d787cc9d27a7e67305fa47d668656eb2e64c4526"
+  integrity sha512-3uvbg8E7rhqE1C4oBAK3tGlS2qfhi9zpfZgH/yjDPF73vd9B41urVIKujF4rczcF4E3qs34SedhehiDJ4UdNBA==
 
 "@docsearch/react@^3.6.1":
   version "3.6.1"
