@@ -4070,10 +4070,10 @@ preact-render-to-string@^6.5.13:
   resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.13.tgz#cb9eb4a0df3576e7bfd78ef5f3d3bd57480e79ee"
   integrity sha512-iGPd+hKPMFKsfpR2vL4kJ6ZPcFIoWZEcBf0Dpm3zOpdVvj77aY8RlLiQji5OMrngEyaxGogeakTb54uS2FvA6w==
 
-preact@^10.26.6:
-  version "10.26.6"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.26.6.tgz#388963cc4aa15fceafd65c17fbeddc395fdb0ceb"
-  integrity sha512-5SRRBinwpwkaD+OqlBDeITlRgvd8I8QlxHJw9AxSdMNV6O+LodN9nUyYGpSF7sadHjs6RzeFShMexC6DbtWr9g==
+preact@^10.26.8:
+  version "10.26.8"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.26.8.tgz#aa0cf2eae578e42eb58ae025e0bf85c4cfc91cc6"
+  integrity sha512-1nMfdFjucm5hKvq0IClqZwK4FJkGXhRrQstOQ3P4vp8HxKrJEMFcY6RdBRVTdfQS/UlnX6gfbPuTvaqx/bDoeQ==
 
 pretty-ms@^9.0.0:
   version "9.2.0"
